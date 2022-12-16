@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <title>About Me</title>
+ <body style="background-color: #91B2C7;">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+ * {
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* Style the header */
+ header {
+   banckground-color: #333;
+   padding: 20px;
+   text-align: center;
+   font-size: 35px;
+   color: #fff;
+ }
+
+ /* Create two columns/boxes taht floats next to each other */
+ nav {
+   float: left;
+   width: 35%;
+   height: 800px; /* only for demonstration, should be removed*/
+   background: #333;
+   padding: 20px;
+
+ }
+
+ /* Style the list inside the menu */
+ nav ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ article {
+   float: left;
+   padding: 20px;
+   width: 70%;
+   background-color: #333;
+   height: 800px; /*only for demonstration, should be removed */
+ }
+
+ /* Style the footer*/
+ footer {
+   background-color: #333;
+   padding: 20px;
+   text-align: center;
+   color: white;
+ }
+
+ /* ResDponsive layout - makes two columns/boxes stack on top of each other instead of next to each other, on small screen */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+   }
+ }
+ </style>
+ </head>
+ <body>
+ <header>
+ <h1>Hi, There!</h1>
+ <font color="black"><font face="cursive"><font size="5"><h1 align="center">"Everything About Me"</h1>
+ <img src="image/kinta.jpg" alt="Me" width="40%" height="40%">
+ </header>
+      <center><a href="biodata.html"><img src="image/biodata.png" alt="Second Image"></a>
+  <a href="experience.html"><img src="image/experience.png" alt="Third Image"></a>
+  <a href="education.html"><img src="image/education.png" alt="Fourth Image"></a>
+  <a href="family.html"><img src="image/family.png" alt="Fifth Image"></a>
+  <a href="gallery.html"><img src="image/gallery.png" alt="Sixth Image"></a></center>
+<br>
+      <a href="#top"><img src="image/top.png" alt="Back to top"style="width: 50px; height: 50px;"</a>
+    </ul>
+  </body>
+</html>
